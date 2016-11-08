@@ -1,0 +1,17 @@
+{
+  "indicator": {
+    "name": "indicator",
+    "connector": "memory",
+    "file": "${LOOPBACK_INDICATOR_FILE}"
+  },
+  "stat": {
+    "name": "stat",
+    "connector": "memory",
+    "file": "${LOOPBACK_STAT_FILE}"
+  },
+  "ward": {
+    "name": "ward",
+    "connector": "memory",
+    "file": "${LOOPBACK_WARD_FILE}"
+  }
+}

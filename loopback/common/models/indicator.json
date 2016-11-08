@@ -1,0 +1,31 @@
+{
+  "name": "Indicator",
+  "description": "Indicators for Edinburgh statistics",
+  "plural": "Indicators",
+  "mongodb": {
+    "collection": "Indicators"
+  },
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id" : {
+      "type": "string",
+      "required": true
+    },
+    "group": {
+      "type": "string",
+      "required": true
+    },
+    "indicator": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

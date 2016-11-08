@@ -1,0 +1,42 @@
+{
+  "name": "cec-locality-profiles",
+  "version": "1.0.0",
+  "description": "Edinburgh City Scope Loopback API on demographics and community statistics for areas of Edinburgh",
+  "main": "loopback/server/server.js",
+  "scripts": {
+    "start": "node .",
+    "pretest": "jshint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdinburghCityScope/cec-locality-profiles.git"
+  },
+  "author": "Adrian Richardsonn <Adrian.Richardson@ed.ac.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdinburghCityScope/cec-locality-profiles/issues"
+  },
+  "homepage": "https://github.com/EdinburghCityScope/cec-locality-profiles#readme",
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "csvtojson": "^1.0.3",
+    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#1.1.1",
+    "iconv-lite": "^0.4.13",
+    "json2csv": "^3.4.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-mongodb": "^1.13.3",
+    "loopback-connector-rest": "^1.10.2",
+    "loopback-datasource-juggler": "^2.39.0",
+    "path": "^0.12.7",
+    "query-overpass": "^1.1.0",
+    "serve-favicon": "^2.0.1",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  }
+}

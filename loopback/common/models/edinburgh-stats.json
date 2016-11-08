@@ -1,0 +1,35 @@
+{
+  "name": "EdinburghStat",
+  "description": "Statistics for Edinburgh wards",
+  "plural": "EdinburghStats",
+  "mongodb": {
+    "collection": "Stats"
+  },
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id" : false,
+    "value": {
+      "type": "Number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "ward": {
+      "type": "belongsTo",
+      "model": "GeoJSONFeature",
+      "foreignKey": "wardId"
+    },
+    "indicator": {
+      "type": "belongsTo",
+      "model": "Indicator",
+      "foreignKey": "indicatorId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

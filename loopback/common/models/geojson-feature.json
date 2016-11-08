@@ -1,0 +1,35 @@
+{
+  "name": "GeoJSONFeature",
+  "description": "An Edinburgh Ward represented as a GeoJSON Feature",
+  "plural": "GeoJSONFeatures",
+  "mongodb": {
+    "collection": "Features"
+  },
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id" : {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "properties": {
+      "type": "object",
+      "required": true
+    },
+    "geometry": {
+      "type": "GeoJSONGeometry",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

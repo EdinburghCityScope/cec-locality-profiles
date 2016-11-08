@@ -1,0 +1,248 @@
+{
+    "id": "https://github.com/EdinburghCityScope/cec-locality-profiles",
+    "title": "Edinburgh Locality Profiles",
+    "description": "Facts and statistics about the council's 17 wards.",
+    "landingPage": "https://github.com/EdinburghCityScope/cec-locality-profiles",
+    "issued": "2016-10-21",
+    "modified": "2016-11-08",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "CEC Strategy and Insight",
+        "mbox": "opendata@edinburgh.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "community",
+        "demographics",
+        "health",
+        "housing"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh locality profile base data JSON file",
+            "description": "Data sourced from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "application/json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/edinburgh-stats.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Population data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/population.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Households data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/households.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Household tenure data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/household-tenure.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Household rooms data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/household-rooms.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Household occupancy data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/household-occupancy.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Transport to Work data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/transport-to-work.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Dwellings data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/dwellings.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Economic activity data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/economic-activity.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Long-term health condition data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/long-term-health-condition.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Day to day activities data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/day-to-day-activities.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Highest qualification data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/highest-qualification.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile claimant count with rates and proportions data",
+            "description": "Source: Nomis. Date: 2014-12. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/claimant-count-with-rates-and-proportions.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile benefit claimants - job seekers allowance for small areas data",
+            "description": "Source: Nomis. Date: 2014-05. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/benefit-claimants-job-seekers-allowance-for-small-areas.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile benefit claimants - disability living allowance for small areas data",
+            "description": "Source: Nomis. Date: 2014-05. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/benefit-claimants-disability-living-allowance-for-small-areas.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile benefit claimants - income support for small areas data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/benefit-claimants-income-support-for-small-areas.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile National Social Grades data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/national-social-grades.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Household income data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/household-income.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Personal financial circumstances data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/personal-financial-circumstances.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Charitable donations data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/charitable-donations.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Technology owned data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/technology-owned.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Banking behavior data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/banking-behavior.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Online behavior data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/online-behavior.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Communications channel preference data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/communications-channel-preference.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Contact preference data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/contact-preference.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Unpaid care provided data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/unpaid-care-provided.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Health and wellbeing data",
+            "description": "Source: Mosaic. Date: 2014-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/health-and-wellbeing.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Employment / professional classification data",
+            "description": "Source: Census. Date: 2011-03. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/employment-professional-classification.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Edinburgh People Survey data",
+            "description": "Source: EPS. Date: 2015-01. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/edinburgh-people-survey.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Scottish Index of Multiple Deprivation data",
+            "description": "Source: SIMD. Date: 2012-08. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/scottish-index-of-multiple-deprivation.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Poverty data",
+            "description": "Source: CPAG. Date: 2014-01. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/poverty.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh locality profile Antisocial behaviour actions data",
+            "description": "Source: CEC. Date: 2012. Data taken from http://www.edinburghopendata.info/dataset/locality-profiles",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/antisocial-behaviour-actions.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
