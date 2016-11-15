@@ -4,7 +4,7 @@
     "description": "Facts and statistics about the council's 17 wards.",
     "landingPage": "https://github.com/EdinburghCityScope/cec-locality-profiles",
     "issued": "2016-10-21",
-    "modified": "2016-11-08",
+    "modified": "2016-11-15",
     "language": [
         "en"
     ],
@@ -26,6 +26,13 @@
             "mediaType": "application/json",
             "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/edinburgh-stats.json",
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh Wards GeoJSON file",
+            "description": "Ward boundary data sourced from MapIt: https://mapit.mysociety.org This repository contains Ordnance Survey open data © Crown copyright and database right 2010",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/edinburgh-wards.geojson",
+            "license": "https://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html"
         },
         {
             "title": "Edinburgh locality profile Population data",

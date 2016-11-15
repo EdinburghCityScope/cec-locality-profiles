@@ -68,6 +68,13 @@ csvConverter.on("end_parsed", function(jsonObj) {
         "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/" + statsJsonFile,
         "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
     });
+    dataFiles.push({
+        "title": "Edinburgh Wards GeoJSON file",
+        "description": "Ward boundary data sourced from MapIt: https://mapit.mysociety.org This repository contains Ordnance Survey open data © Crown copyright and database right 2010",
+        "mediaType": "application/vnd.geo+json",
+        "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/cec-locality-profiles/master/data/" + wardsGeoJsonFile,
+        "license": "https://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html"
+    });
 
     for (var group in csvData) {
         filename = slug(group).toLowerCase() + ".csv"
