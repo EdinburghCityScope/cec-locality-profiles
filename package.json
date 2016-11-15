@@ -22,7 +22,7 @@
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "csvtojson": "^1.0.3",
-    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#1.1.1",
+    "edinburghcityscope-utils": "https://github.com/EdinburghCityScope/edinburghcityscope-utils.git#1.2.0",
     "iconv-lite": "^0.4.13",
     "json2csv": "^3.4.2",
     "loopback": "^2.22.0",
